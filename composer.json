@@ -1,0 +1,17 @@
+{
+    "name" : "php/lab3",
+    "description":"form",
+    "license" : "MIT",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "endroid/qr-code": "*",
+        "gliterd/backblaze-b2": "^1.5"
+
+    },
+    "autoload": {
+        "classmap": ["classes"],
+        "files": ["config.php","functions.php"]
+    }  
+
+}
